@@ -62,4 +62,4 @@ This hosted application showcases a realistic GHG inventory reporting toolkit, a
 - Time series of emissions trends over time
 - Sectoral emissions breakdown with stacked bar and sunburst charts
 
-This project is ideal for demonstrating expertise in carbon accounting, sustainability reporting, and MRV (Monitoring, Reporting, Verification) frameworks supporting climate action.
+
