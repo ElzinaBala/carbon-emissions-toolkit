@@ -60,3 +60,20 @@ services:
     startCommand: python dashboard/app.py
     plan: free
 
+🌐 Live Dashboard
+A fully interactive version of this carbon emissions analysis dashboard is deployed on Render and available at the link below:
+
+https://carbon-emissions-toolkit.onrender.com/
+
+This hosted application demonstrates a realistic GHG inventory reporting toolkit, structured around UNFCCC Tier 1 sector codes and activity-based carbon calculations. The dashboard auto-loads a default emissions dataset and presents a suite of dynamic visualizations, including:
+
+Emissions by activity type and sector
+
+Pie chart showing emissions share by UNFCCC categories
+
+Time series of emissions trends
+
+Sectoral breakdown with stacked bars and sunburst hierarchy
+
+The project is suitable for demonstration in roles involving carbon accounting, sustainability reporting, or MRV (Monitoring, Reporting, Verification) systems for climate action.
+
