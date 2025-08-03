@@ -49,31 +49,17 @@ Emissions are calculated as:
 
 This app is deployed using Render.
 
-### render.yaml
+## Live Dashboard
 
-```yaml
-services:
-  - type: web
-    name: carbon-emissions-toolkit
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python dashboard/app.py
-    plan: free
+A fully interactive version of this carbon emissions analysis dashboard is deployed on Render and accessible at:
 
-🌐 Live Dashboard
-A fully interactive version of this carbon emissions analysis dashboard is deployed on Render and available at the link below:
+[https://carbon-emissions-toolkit.onrender.com](https://carbon-emissions-toolkit.onrender.com)
 
-https://carbon-emissions-toolkit.onrender.com/
+This hosted application showcases a realistic GHG inventory reporting toolkit, aligned with UNFCCC Tier 1 sector codes and activity-based carbon calculations. It features dynamic, professional visualizations including:
 
-This hosted application demonstrates a realistic GHG inventory reporting toolkit, structured around UNFCCC Tier 1 sector codes and activity-based carbon calculations. The dashboard auto-loads a default emissions dataset and presents a suite of dynamic visualizations, including:
+- Emissions by activity type and sector
+- Pie chart illustrating emissions share by UNFCCC categories
+- Time series of emissions trends over time
+- Sectoral emissions breakdown with stacked bar and sunburst charts
 
-Emissions by activity type and sector
-
-Pie chart showing emissions share by UNFCCC categories
-
-Time series of emissions trends
-
-Sectoral breakdown with stacked bars and sunburst hierarchy
-
-The project is suitable for demonstration in roles involving carbon accounting, sustainability reporting, or MRV (Monitoring, Reporting, Verification) systems for climate action.
-
+This project is ideal for demonstrating expertise in carbon accounting, sustainability reporting, and MRV (Monitoring, Reporting, Verification) frameworks supporting climate action.
